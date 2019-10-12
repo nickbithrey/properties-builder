@@ -8,7 +8,7 @@ type ConvertedPropertyProps = {
 const ConvertedProperty: React.FC<ConvertedPropertyProps> = ({properties}: ConvertedPropertyProps) => {
     return (
         <div>
-            <TextField multiline value={properties} />
+            <TextField multiline value={properties} rows={50} />
         </div>
     );
 }
