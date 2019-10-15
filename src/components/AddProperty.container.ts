@@ -1,8 +1,8 @@
 import { Dispatch } from 'redux';
 import { connect } from 'react-redux';
-import * as State from './State';
+import * as State from '../redux/State';
 import AddProperty from './AddProperty';
-import * as Actions from './action';
+import * as Actions from '../redux/action';
 
 export type Property = {
     key: string;

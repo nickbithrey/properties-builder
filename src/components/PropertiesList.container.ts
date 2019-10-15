@@ -1,6 +1,6 @@
 import { Dispatch } from 'redux';
 import { connect } from 'react-redux';
-import {State, Properties} from './State';
+import {State, Properties} from '../redux/State';
 import PropertyList, { Property } from './PropertyList';
 
 const mapStateToProps = (state: State) => ({

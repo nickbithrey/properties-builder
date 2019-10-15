@@ -1,6 +1,6 @@
 import { Dispatch } from 'redux';
 import { connect } from 'react-redux';
-import * as State from './State';
+import * as State from '../redux/State';
 import ConvertedProperties from './ConvertedProperties';
 import YAML from 'yaml';
 
